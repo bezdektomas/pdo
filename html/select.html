@@ -1,0 +1,35 @@
+<section>
+    <article>
+        <h2>Výběr dat</h2>
+        <p>V souboru <b>html/select.html</b> doplňte části kódu pro zpracování HTML formuláře. V souboru
+            <b>select.php</b>,doplňte část kódu, která do výběrového pole načte všechny třídy z tabulky znamky. Dále
+            vytvořte skript, který vypíše všechny žáky, jejichž příjmení začíná
+            zadaným řetězcem znaků nebo všechny žáky
+            zvolené třídy. V případě, že budou zadány obě hodnoty (příjmení i třída), provede se průnik obou podmínek. V
+            případě, že nebude zadána žádná hodnota, vypíšou se všichni žáci.
+        </p>
+        <p>Vypracujte dvě verze s různými metodami odeslání dat formulářem.</p>
+    </article>
+    <article class="select">
+        <!-- Sem dopňte potřebné formulářové prvky -->
+        <form>
+            <fieldset>
+                <div>
+                    <label>Příjmení</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label>Třída</label>
+                    <select>
+                        [@Option]
+                    </select>
+                </div>
+                <div> <input type="submit"> </div>
+            </fieldset>
+        </form>
+    </article>
+
+    <article>
+        [@TableResult]
+    </article>
+</section>

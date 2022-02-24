@@ -1,0 +1,42 @@
+<section>
+    <article>
+        <h2>Smazání známek z databáze</h2>
+        <p>Stránka obsahuje údaje o známce. Stisknutím tlačítka Smazat, dojde ke smazání známky z databáze. ID známky je
+            předáváno metodou přenášející data v URL adrese webového prohlížeče.</p>
+        <p>Doplňte formuláře o povinné prvky potřebné pro zpracování formuláře v PHP. Nastavte výchozí hodnotu pro
+            potvrzovací volbu na Ne pomocí atributů v HTML.</p>
+        <p>Smazání záznamu proběhne při volbě Ano z rozevíracího seznamu.</p>
+    </article>
+    <article>
+        <form>
+            <fieldset>
+                <div>
+                    <label>ID známky </label>
+                    <input type="number" disabled>
+                </div>
+                <div>
+                    <label>Datum zadání známky</label>
+                    <input type="date" disabled>
+                </div>
+                <div>
+                    <label>Předmět</label>
+                    <input type="text" disabled>
+                </div>
+                <div>
+                    <label>Známka</label>
+                    <input type="number" disabled>
+                </div>
+                <div>
+                    <label>Opravdu smazat?</label>
+                    <select>
+                        <option>Ano</option>
+                        <option>Ne</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="submit" value="Smaž">
+                </div>
+            </fieldset>
+        </form>
+    </article>
+</section>

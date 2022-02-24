@@ -1,0 +1,51 @@
+<section>
+    <article>
+        <h2>Vložení uživatele do databáze</h2>
+        <p>Stránka obsahuje formulář pro vložení dat. Proveďte kontrolu odeslaných dat pomocí regulérních výrazů.
+            Všechny položky v databázi jsou povinné.</p>
+        <p>
+            Požadavky na jednotlivé formulářová pole a položky v databázi:
+        <ul>
+            <li><b>Třída</b>: Obsahuje pouze řetězce ve tvaru X. Y, kde X je číslo 1 až 4, představující ročník a Y jsou
+                znaky A až D.</li>
+            <li><b>Ročník</b>: Určujte pomocí řetězcových funkcí ze zadané třídy.</li>
+            <li><b>sloupec PasswordHash v DB</b>: Ukládejte pomocí funkcí v PHP.</li>
+            <li><b>Jméno, příjmení, město</b>: Obsahuje pouze znaky abecedy.</li>
+            <li><b>Rodné číslo</b>: Obsahuje pouze devět až deset číslic.</li>
+            <li><b>Login</b>: Vytvořte funkci pro vytvoření loginu uživatele tak, že obsahuje maximálně šest znaků z příjmení doplněnými dvěma znaky z  </li>
+        </ul>
+        </p>
+        <p>Doplňte formuláře o povinné prvky potřebné pro zpracování formuláře v PHP.</p>
+    </article>
+    <article>
+        <form method="post">
+            <fieldset>
+                <div>
+                    <label>Třída</label>
+                    <input type="text" name="trida">
+                </div>
+                <!-- <div>
+                    <label>Heslo</label>
+                    <input type="password" name="heslo">
+                </div> -->
+                <div>
+                    <label>Rodné číslo</label>
+                    <input type="text" name="rc">
+                </div>
+                <div>
+                    <label>Jméno</label>
+                    <input type="text" name="jmeno">
+                </div>
+                <div>
+                    <label>Příjmení</label>
+                    <input type="text" name="prijmeni">
+                </div>
+                <div>
+                    <label>Město</label>
+                    <input type="text">
+                </div>
+                <input type="submit" value="Vlož">
+            </fieldset>
+        </form>
+    </article>
+</section>

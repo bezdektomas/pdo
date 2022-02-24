@@ -1,0 +1,181 @@
+body {
+    width: 80%;
+    margin: auto;
+    background-color: #CECEFC;
+    font-family: "Open Sans";
+}
+
+header h1,
+header h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background-color: #B0B0F8;
+}
+
+nav {
+    width: 20%;
+    background-color: rgba(176, 176, 248, 0.562);
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    background-color: #8989FF;
+    display: block;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+nav li a:hover {
+    background-color: white;
+    color: #8989FF;
+}
+
+section {
+    width: 74%;
+    background-color: rgba(176, 176, 248, 0.562);
+    float: right;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 2px solid #8989FF;
+    padding: 5px;
+}
+
+th {
+    text-align: left;
+    background-color: #8989FF;
+}
+
+#aktivni {
+    background-color: rgba(176, 176, 248, 0.562);
+}
+
+#aktivni a {
+    color: black;
+}
+
+.test {
+    background-color: red;
+}
+
+.test a {
+    color: black;
+}
+
+p {
+    text-align: justify;
+}
+
+fieldset {
+    background-color: white;
+    border: none;
+    padding: 20px;
+}
+
+fieldset div {
+    width: 30%;
+    float: left;
+}
+
+fieldset label {
+    padding-left: 10px;
+    width: 100%;
+}
+
+input[type=text],
+input[type=password],
+input[type=date],
+input[type=number] {
+    width: 85%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #8989FF;
+}
+
+input[type=text]:disabled,
+input[type=date]:disabled,
+input[type=password]:disabled,
+input[type=number]:disabled {
+    background-color: #CECEFC;
+}
+
+input[type=date] {
+    padding: 8px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=date]:focus,
+input[type=number]:focus {
+    border: none;
+    border-bottom: 2px solid #0016af;
+    outline: none;
+}
+
+select {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #8989FF;
+    outline: none;
+}
+
+label {
+    font-size: 0.8em;
+    width: 100%;
+}
+
+article {
+    margin-top: 10px;
+}
+
+input[type=submit] {
+    background-color: #4c4daf;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: auto;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+input[type=checkbox] {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+form {
+    position: relative;
+}

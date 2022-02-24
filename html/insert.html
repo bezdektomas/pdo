@@ -1,0 +1,37 @@
+<section>
+    <article>
+        <h2>Vložení uživatele do databáze</h2>
+        <p>Stránka obsahuje formulář pro vložení dat. Proveďte kontrolu odeslaných dat pomocí regulárních výrazů.
+            Všechny položky v databázi jsou povinné.</p>
+        <p>Doplňte formuláře o povinné prvky potřebné pro zpracování formuláře v PHP.</p>
+        <p>Do pole pro login a předmět načtěte potřebné údaje.</p>
+    </article>
+    <article>
+        <form>
+            <fieldset>
+                <div>
+                    <label>Login</label>
+                    <select>
+                        [@OptionsLogin]
+                    </select>
+                </div>
+                <div>
+                    <label>Datum</label>
+                    <input type="date">
+                </div>
+                <div>
+                    <label>Předmět</label>
+                    <select>
+                        [@OptionsPredmet]
+                    </select>
+                </div>
+                <div>
+                    <label>Známka</label>
+                    <input type="number">
+                </div>
+                <input type="submit" value="Vlož">
+            </fieldset>
+        </form>
+        <p>[@Info]</p>
+    </article>
+</section>
